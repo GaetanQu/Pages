@@ -1,0 +1,278 @@
+/*
+    Colors and fonts generated via RealTime Colors
+    https://www.realtimecolors.com/?colors=090a0e-f3f4f8-0d1c60-97a2d5-6779cd&fonts=Inter-Inter
+*/
+
+@media (prefers-color-scheme: light){
+    :root {
+        --text: #090a0e;
+        --background: #f3f4f8;
+        --primary: #0d1c60;
+        --secondary: #97a2d5;
+        --accent: #6779cd;
+
+        --text-50: #eff1f5;
+        --text-100: #e0e2eb;
+        --text-200: #c1c5d7;
+        --text-300: #a2a8c3;
+        --text-400: #838caf;
+        --text-500: #636f9c;
+        --text-600: #50597c;
+        --text-700: #3c425d;
+        --text-800: #282c3e;
+        --text-900: #14161f;
+        --text-950: #0a0b10;
+    
+        --background-50: #eff0f6;
+        --background-100: #dfe2ec;
+        --background-200: #bfc4d9;
+        --background-300: #9fa7c6;
+        --background-400: #7e89b4;
+        --background-500: #5e6ca1;
+        --background-600: #4b5681;
+        --background-700: #394160;
+        --background-800: #262b40;
+        --background-900: #131620;
+        --background-950: #090b10;
+    
+        --primary-50: #e9ecfc;
+        --primary-100: #d2d9f9;
+        --primary-200: #a5b3f3;
+        --primary-300: #788eed;
+        --primary-400: #4b68e7;
+        --primary-500: #1f42e0;
+        --primary-600: #1835b4;
+        --primary-700: #122887;
+        --primary-800: #0c1a5a;
+        --primary-900: #060d2d;
+        --primary-950: #030716;
+    
+        --secondary-50: #edeff8;
+        --secondary-100: #dbdff0;
+        --secondary-200: #b7bee1;
+        --secondary-300: #929ed3;
+        --secondary-400: #6e7ec4;
+        --secondary-500: #4a5eb5;
+        --secondary-600: #3b4b91;
+        --secondary-700: #2c386d;
+        --secondary-800: #1e2548;
+        --secondary-900: #0f1324;
+        --secondary-950: #070912;
+    
+        --accent-50: #eceef9;
+        --accent-100: #d9ddf2;
+        --accent-200: #b3bce6;
+        --accent-300: #8c9ad9;
+        --accent-400: #6679cc;
+        --accent-500: #4057bf;
+        --accent-600: #334699;
+        --accent-700: #263473;
+        --accent-800: #19234d;
+        --accent-900: #0d1126;
+        --accent-950: #060913;
+    }
+}
+  
+
+@media (prefers-color-scheme: dark){
+    :root {
+        --text: #eff1f5;
+        --background: #08090d;
+        --primary: #a1b0f2;
+        --secondary: #2b3669;
+        --accent: #334699;
+
+        --text-50: #0a0c10;
+        --text-100: #14181f;
+        --text-200: #272f3f;
+        --text-300: #3b475e;
+        --text-400: #4f5e7d;
+        --text-500: #62769d;
+        --text-600: #8291b0;
+        --text-700: #a1adc4;
+        --text-800: #c0c8d8;
+        --text-900: #e0e4eb;
+        --text-950: #eff1f5;
+
+        --background-50: #0a0b10;
+        --background-100: #131620;
+        --background-200: #272c3f;
+        --background-300: #3a415f;
+        --background-400: #4e577e;
+        --background-500: #616d9e;
+        --background-600: #818ab1;
+        --background-700: #a0a7c5;
+        --background-800: #c0c5d8;
+        --background-900: #dfe2ec;
+        --background-950: #eff0f5;
+
+        --primary-50: #030716;
+        --primary-100: #060d2d;
+        --primary-200: #0c1a5a;
+        --primary-300: #122887;
+        --primary-400: #1835b4;
+        --primary-500: #1f42e0;
+        --primary-600: #4b68e7;
+        --primary-700: #788eed;
+        --primary-800: #a5b3f3;
+        --primary-900: #d2d9f9;
+        --primary-950: #e9ecfc;
+
+        --secondary-50: #070912;
+        --secondary-100: #0f1324;
+        --secondary-200: #1e2548;
+        --secondary-300: #2c386d;
+        --secondary-400: #3b4b91;
+        --secondary-500: #4a5eb5;
+        --secondary-600: #6e7ec4;
+        --secondary-700: #929ed3;
+        --secondary-800: #b7bee1;
+        --secondary-900: #dbdff0;
+        --secondary-950: #edeff8;
+
+        --accent-50: #060913;
+        --accent-100: #0d1126;
+        --accent-200: #19234d;
+        --accent-300: #263473;
+        --accent-400: #334699;
+        --accent-500: #4057bf;
+        --accent-600: #6679cc;
+        --accent-700: #8c9ad9;
+        --accent-800: #b3bce6;
+        --accent-900: #d9ddf2;
+        --accent-950: #eceef9;
+    }
+}
+
+body {
+  font-family: 'Noto sans';
+  font-weight: 400;
+  color: var(--text);
+  background-color: var(--background);
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Noto sans';
+  font-weight: 700;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+h5 {font-size: 1.333rem; /* 21.28px */}
+
+small {font-size: 0.750rem; /* 12px */}
+
+
+@media (orientation: portrait) {
+    html{
+        font-size: calc(100vw/30);
+    }
+
+    h1{
+        font-size: calc(100vw / 13);
+    }
+}
+
+.button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: var(--background);
+    text-decoration: none;
+    transition: 100ms;
+}
+
+.button:hover{
+    filter: brightness(1.3);
+}
+
+img{
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes hero-title {
+    from{
+        margin-top: 50%;
+    }
+
+    to {
+        margin-top: 1em;
+    }
+}
+
+@keyframes hero-p{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes hero-img{
+    from{
+        opacity: 0;
+        transform: rotate3d(1, 0, 0, 30deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100dvh;
+    overflow: hidden;
+
+    perspective: 1000px;
+}
+
+.hero .presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .presentation h1{
+    margin-bottom: 0;
+
+    margin-top: 50%;
+    animation: hero-title 500ms ease-in-out 1.2s 1 normal forwards;
+}
+
+.hero .presentation p{
+    margin-top: 0;
+    color: var(--text-600);
+    font-weight: 600;
+
+    opacity: 0;
+    animation: hero-p 1s ease-out .5s 1 normal forwards;
+}
+
+.hero img{
+    opacity: 0;
+    animation: hero-img 700ms ease-in-out 1.2s 1 normal forwards;
+}
