@@ -144,6 +144,15 @@
     }
 }
 
+:root{
+    --linearPrimarySecondary: linear-gradient(#0d1c60, #97a2d5);
+    --linearPrimaryAccent: linear-gradient(#0d1c60, #6779cd);
+    --linearSecondaryAccent: linear-gradient(#97a2d5, #6779cd);
+    --radialPrimarySecondary: radial-gradient(#0d1c60, #97a2d5);
+    --radialPrimaryAccent: radial-gradient(#0d1c60, #6779cd);
+    --radialSecondaryAccent: radial-gradient(#97a2d5, #6779cd);
+}
+
 body {
   font-family: 'Noto sans';
   font-weight: 400;
@@ -207,11 +216,11 @@ body{
 }
 
 @keyframes hero-title {
-    from{
+    0%{
         margin-top: 50%;
     }
 
-    to {
+    100% {
         margin-top: 1em;
     }
 }
@@ -230,6 +239,18 @@ body{
     from{
         opacity: 0;
         transform: rotate3d(1, 0, 0, 30deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes hero-a{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
     }
 
     to{
@@ -258,7 +279,9 @@ body{
 
 .hero .presentation h1{
     margin-bottom: 0;
-
+    font-size: 72px;
+    color: var(--primary);
+    
     margin-top: 50%;
     animation: hero-title 500ms ease-in-out 1.2s 1 normal forwards;
 }
@@ -273,6 +296,15 @@ body{
 }
 
 .hero img{
+    max-width: 90vw;
+
     opacity: 0;
     animation: hero-img 700ms ease-in-out 1.2s 1 normal forwards;
+}
+
+.hero a{
+    margin-top: 1em;
+
+    opacity: 0;
+    animation: hero-a 500ms ease-out 1.7s 1 normal forwards;
 }
