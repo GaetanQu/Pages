@@ -1,0 +1,93 @@
+@keyframes hero-title {
+    0%{
+        margin-top: 50%;
+    }
+
+    100% {
+        margin-top: 1em;
+    }
+}
+
+@keyframes hero-p{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes hero-img{
+    from{
+        opacity: 0;
+        transform: rotate3d(1, 0, 0, 30deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes hero-a{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100dvh;
+    overflow: hidden;
+
+    perspective: 1000px;
+
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .names{
+            margin-bottom: 0;
+            font-size: 72px;
+            color: var(--primary);
+            
+            margin-top: 50%;
+            animation: hero-title 500ms ease-in-out 1.2s 1 normal forwards;
+        }
+
+        .job{
+            margin-top: 0;
+            color: var(--text-600);
+            font-weight: 600;
+        
+            opacity: 0;
+            animation: hero-p 1s ease-out .5s 1 normal forwards;
+        }
+    }
+
+    .avatar{
+        max-width: 90vw;
+    
+        opacity: 0;
+        animation: hero-img 700ms ease-in-out 1.2s 1 normal forwards;
+    }
+
+    .button{
+        margin-top: 1em;
+    
+        opacity: 0;
+        animation: hero-a 500ms ease-out 1.7s 1 normal forwards;
+    }
+}
